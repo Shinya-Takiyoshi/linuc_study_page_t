@@ -1,0 +1,2 @@
+# linuc_study_page_t
+linucの勉強用に内容を覚えるためのページ作成
