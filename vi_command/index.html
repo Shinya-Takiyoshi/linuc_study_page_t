@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メニュー</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* ボタンの間に余白を追加 */
+        }
+
+        .button-container button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 200px; /* ボタンの幅を指定 */
+        }
+
+        /* 左のボタン */
+        .left {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* 右のボタン */
+        .right {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+viコマンド操作ページ
+<div class="button-container">
+    <a href="vi.html">viエディタの操作_移動編</a>
+    <a href="vi_save.html">viエディタの操作_保存編</a>
+    <a href="vi_search.html">viエディタの操作_検索編</a>
+</div>
+
+</body>
+</html>
